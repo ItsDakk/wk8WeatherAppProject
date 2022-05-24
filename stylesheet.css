@@ -1,0 +1,16 @@
+.container {
+    border: 1px solid black;
+    background-image: url(/images/hero-background.jpeg);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: larger;
+}
+
+.card-body {
+    color: black;
+    background-image: url(/images/card-background.gif);
+    background-size: cover;
+    background-repeat: none;
+}
+
