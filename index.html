@@ -11,24 +11,32 @@
 </head>
 <body>
 
-    <div class="container mt-5 p-3">
-        <div class="row">
-            <div class="col">
-                <div class="m-3">
+    <div class="container mt-5 p-3 col-10">
+        <div class="col">
+                <form class="m-3" id="search">
                     <label for="" class="form-label">City</label>
-                    <input type="" class="form-control" id="" placeholder="">
-                    <a href="#" class="btn btn-info form-control mt-3" id="search">Search</a>
-                </div>
-                <div class="card text-center">
-                    <div class="card-header bg-info">
-                      Weather Statment
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title"></h5>
-                      <p class="card-text" id="output">High</p>
-                      <p class="card-text">Low</p>
-                      <p class="card-text">Forecast</p>
-                      <p class="card-text">Humdity</p>
+                    <input name="city" class="form-control" id="" placeholder="">
+                    <button type="submit" class="btn btn-info form-control mt-2">Search</button>
+                </form>
+            </div>
+            <div class="card text-center">
+            <div class="card-header bg-info row p-3">
+                    <div class="card-body col-1">
+                      <h5 class="card-title">High (°F)</h5>
+                      <p class="card-text " id="output_high" style="color: red;"></p>
+                      </div>
+                    <div class="card-body col-1">
+                        <h5 class="card-title">Low (°F)</h5>
+                        <p class="card-text " id="output_low"style="color: blue;"></p>
+                        </div>  
+                      <div class="card-body col-1">
+                        <h5 class="card-title">Forecast</h5>
+                        <p class="card-text " id="output_forecast" style="color: black;"></p>
+                      </div>
+                      <div class="card-body col-1">
+                        <h5 class="card-title">Humidity</h5>
+                        <p class="card-text " id="output_humidity" style="color: black;"></p>
+                      </div>
                     </div>
                 </div>
             </div>

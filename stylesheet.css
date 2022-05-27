@@ -7,10 +7,5 @@
     font-size: larger;
 }
 
-.card-body {
-    color: black;
-    background-image: url(/images/card-background.gif);
-    background-size: cover;
-    background-repeat: none;
-}
+
 
